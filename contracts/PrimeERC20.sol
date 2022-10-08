@@ -5,9 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract PrimeERC20 is ERC20 {
     constructor() ERC20("Prime", "PRIME") {
-        _mint(msg.sender, 1000);
+        _mint(msg.sender, 1000 ether);
     }
-
-
 }
 
